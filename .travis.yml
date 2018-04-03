@@ -7,7 +7,7 @@ language: bash
 
 env:
   global:
-    - IMAGE=carlosedp/arm_exporter
+    - IMAGE=jessestuart/arm_exporter
     - BINARY=rpi_exporter
     - QEMU_VERSION=v2.9.1-1
     - GIMME_GO_VERSION=1.9.3
